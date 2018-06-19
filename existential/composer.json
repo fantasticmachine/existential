@@ -1,0 +1,14 @@
+{
+	"name": "moresoda/existential",
+	"description": "Check whether a file exists",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "MoreSoda",
+			"homepage": "https://moresoda.co.uk"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
