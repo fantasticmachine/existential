@@ -18,20 +18,23 @@ Existential works on Craft 2.4.x and Craft 2.5.x.
 
 ## Existential Overview
 
--Insert text here-
+A simple Craft 2 plugin which adds a Twig filter for checking whether a file exists
 
 ## Configuring Existential
 
--Insert text here-
+No configuration is necessary
 
 ## Using Existential
 
--Insert text here-
+Use it like this, `{% if asset.getUrl() | fileExists %}`
+
+The plugin will return 'true' if the file exists and 'false' if otherwise.
 
 ## Existential Roadmap
 
 Some things to do, and ideas for potential features:
 
 * Release it
+* Have a beer
 
 Brought to you by [Pete Eveleigh](https://moresoda.co.uk)
