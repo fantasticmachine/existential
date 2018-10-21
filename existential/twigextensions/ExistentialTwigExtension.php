@@ -46,11 +46,13 @@ class ExistentialTwigExtension extends \Twig_Extension
         );
     }
 
-    /**
+     /**
      * @return string
      */
     public function fileExists($url = null)
     {
-        return IOHelper::fileExists($url);
+        $fullUrl = '.'.'/'.ltrim($url,'/');
+        return IOHelper::fileExists($fullUrl);
     }
+}
 }
