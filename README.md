@@ -2,7 +2,7 @@
 
 Check whether a file exists
 
-![Screenshot](resources/screenshots/plugin_logo.png)
+![Screenshot](resources/screenshots/plugin_logo.png) <-- this is irony
 
 ## Installation
 
