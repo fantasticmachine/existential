@@ -55,4 +55,3 @@ class ExistentialTwigExtension extends \Twig_Extension
         return IOHelper::fileExists($fullUrl);
     }
 }
-}
