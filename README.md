@@ -9,6 +9,8 @@ Check whether a file exists
 
 A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists
 
+For the Craft 2 version see https://github.com/moresoda/existential/tree/craft2/master [https://github.com/moresoda/existential/tree/craft2/master]
+
 ## Configuring Existential
 
 No configuration is necessary

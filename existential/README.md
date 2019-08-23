@@ -1,43 +1,31 @@
-# Existential plugin for Craft CMS 3.x
+# Existential plugin for Craft CMS
 
-A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists
+Check whether a file exists
 
-![Screenshot](resources/img/plugin-logo.svg)
+![Screenshot](resources/screenshots/plugin_logo.png) <-- this is irony
 
-## Requirements
-
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
-
-## Installation
-
-To install the plugin, follow these instructions.
-
-1. Open your terminal and go to your Craft project:
-
-        cd /path/to/project
-
-2. Then tell Composer to load the plugin:
-
-        composer require moresoda/existential
-
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Existential.
 
 ## Existential Overview
 
--Insert text here-
+A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists
+
+For the Craft 2 version see https://github.com/moresoda/existential/tree/craft2/master [https://github.com/moresoda/existential/tree/craft2/master]
 
 ## Configuring Existential
 
--Insert text here-
+No configuration is necessary
 
 ## Using Existential
 
--Insert text here-
+Use it like this, `{% if asset.getUrl() | fileExists %}`
+
+The plugin will return 'true' if the file exists and 'false' if otherwise.
 
 ## Existential Roadmap
 
 Some things to do, and ideas for potential features:
 
 * Release it
+* Have a beer
 
-Brought to you by [Moresoda](https://moresoda.co.uk)
+Brought to you by [Pete Eveleigh](https://moresoda.co.uk)
