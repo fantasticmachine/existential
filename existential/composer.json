@@ -1,14 +1,40 @@
 {
-	"name": "moresoda/existential",
-	"description": "Check whether a file exists",
-	"type": "craft-plugin",
-	"authors": [
-		{
-			"name": "MoreSoda",
-			"homepage": "https://moresoda.co.uk"
-		}
-	],
-	"require": {
-		"composer/installers": "~1.0"
-	}
+    "name": "moresoda/existential",
+    "description": "A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists",
+    "type": "craft-plugin",
+    "version": "0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "existential"
+    ],
+    "support": {
+        "docs": "https://github.com/moresoda/existential/blob/master/README.md",
+        "issues": "https://github.com/moresoda/existential/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moresoda",
+            "homepage": "https://moresoda.co.uk"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "moresoda\\existential\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Existential",
+        "handle": "existential",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/moresoda/existential/master/CHANGELOG.md",
+        "class": "moresoda\\existential\\Existential"
+    }
 }
