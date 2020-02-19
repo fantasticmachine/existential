@@ -64,6 +64,12 @@ class ExistentialTwigExtension extends \Twig_Extension
     {
         $urlParsed = parse_url($url, PHP_URL_PATH);
         $fullUrl = '.'.'/'.ltrim($urlParsed,'/');
-        return file_exists($fullUrl);
+        if (file_exists($fullUrl)) {
+            return true;
+        }
+        if (@file_get_contents($url,0,NULL,0,1)) {
+            return true;
+        }
+        return false;
     }
 }
