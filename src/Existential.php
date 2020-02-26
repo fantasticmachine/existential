@@ -24,7 +24,7 @@ use yii\base\Event;
  *
  * @author    Moresoda
  * @package   Existential
- * @since     1.0.0
+ * @since     1.0.2
  *
  */
 class Existential extends Plugin
@@ -48,7 +48,7 @@ class Existential extends Plugin
      *
      * @var string
      */
-    public $schemaVersion = '1.0.1';
+    public $schemaVersion = '1.0.2';
 
     // Public Methods
     // =========================================================================
