@@ -16,6 +16,10 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Pete Eveleigh",
+            "homepage" : "https://fantasticmachine.co.uk"  
+        },
+        {
             "name": "Moresoda",
             "homepage": "https://moresoda.co.uk"
         }
