@@ -13,6 +13,8 @@ namespace moresoda\existential\twigextensions;
 use moresoda\existential\Existential;
 
 use Craft;
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFilter;
 
 /**
  * Twig can be extended in many ways; you can add extra tags, filters, tests, operators,
@@ -23,9 +25,9 @@ use Craft;
  *
  * @author    Moresoda
  * @package   Existential
- * @since     0.1
+ * @since     1.0.3
  */
-class ExistentialTwigExtension extends \Twig_Extension
+class ExistentialTwigExtension extends AbstractExtension
 {
     // Public Methods
     // =========================================================================
@@ -50,7 +52,7 @@ class ExistentialTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('fileExists', [$this, 'fileExists']),
+            new TwigFilter('fileExists', [$this, 'fileExists']),
         ];
     }
 

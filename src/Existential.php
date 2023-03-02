@@ -24,7 +24,7 @@ use yii\base\Event;
  *
  * @author    Moresoda
  * @package   Existential
- * @since     1.0.2
+ * @since     1.0.3
  *
  */
 class Existential extends Plugin
@@ -48,7 +48,7 @@ class Existential extends Plugin
      *
      * @var string
      */
-    public $schemaVersion = '1.0.2';
+    public string $schemaVersion = '1.0.3';
 
     // Public Methods
     // =========================================================================
@@ -57,20 +57,22 @@ class Existential extends Plugin
     public function init()
     {
         parent::init();
-        self::$plugin = $this;
+        // Defer most setup tasks until Craft is fully initialized
+        Craft::$app->onInit(function() {
 
-        // Register Twig extensions
-        Craft::$app->view->registerTwigExtension(new ExistentialTwigExtension());
+            // Register Twig extensions
+            Craft::$app->view->registerTwigExtension(new ExistentialTwigExtension());
 
-      
-        Craft::info(
-            Craft::t(
-                'existential',
-                '{name} plugin loaded',
-                ['name' => $this->name]
-            ),
-            __METHOD__
-        );
+
+            Craft::info(
+                Craft::t(
+                    'existential',
+                    '{name} plugin loaded',
+                    ['name' => $this->name]
+                ),
+                __METHOD__
+            );
+        });
     }
 
     // Protected Methods
