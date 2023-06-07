@@ -4,14 +4,14 @@
  *
  * A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists
  *
- * @link      https://moresoda.co.uk
- * @copyright Copyright (c) 2019 Moresoda
+ * @link      https://fantasticmachine.co.uk
+ * @copyright Copyright (c) 2019 Fantastic Machine
  */
 
 namespace moresoda\existential;
 
-use moresoda\existential\variables\ExistentialVariable;
-use moresoda\existential\twigextensions\ExistentialTwigExtension;
+use fantasticmachine\existential\variables\ExistentialVariable;
+use fantasticmachine\existential\twigextensions\ExistentialTwigExtension;
 
 use Craft;
 use craft\base\Plugin;
@@ -22,7 +22,7 @@ use yii\base\Event;
 
 /**
  *
- * @author    Moresoda
+ * @author    Fantastic Machine
  * @package   Existential
  * @since     1.0.3
  *

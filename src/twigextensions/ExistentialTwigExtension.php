@@ -4,13 +4,13 @@
  *
  * A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists
  *
- * @link      https://moresoda.co.uk
- * @copyright Copyright (c) 2019 Moresoda
+ * @link      https://fantasticmachine.co.uk
+ * @copyright Copyright (c) 2019 Fantastic Machine
  */
 
-namespace moresoda\existential\twigextensions;
+namespace fantasticmachine\existential\twigextensions;
 
-use moresoda\existential\Existential;
+use fantasticmachine\existential\Existential;
 
 use Craft;
 use Twig\Extension\AbstractExtension;
@@ -23,7 +23,7 @@ use Twig\TwigFilter;
  *
  * http://twig.sensiolabs.org/doc/advanced.html
  *
- * @author    Moresoda
+ * @author    Fantastic Machine
  * @package   Existential
  * @since     1.0.3
  */
