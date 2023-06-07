@@ -4,8 +4,8 @@
  *
  * A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists
  *
- * @link      https://moresoda.co.uk
- * @copyright Copyright (c) 2019 Moresoda
+ * @link      https://fantasticmachine.co.uk
+ * @copyright Copyright (c) 2019 Fantastic Machine
  */
 
 /**
@@ -16,7 +16,7 @@
  *
  * http://www.yiiframework.com/doc-2.0/guide-tutorial-i18n.html
  *
- * @author    Moresoda
+ * @author    Fantastic Machine
  * @package   Existential
  * @since     0.1
  */
