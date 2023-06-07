@@ -1,5 +1,5 @@
 {
-    "name": "moresoda/existential",
+    "name": "fantasticmachine/existential",
     "description": "A simple Craft 3 plugin which adds a Twig filter for checking whether a file exists",
     "type": "craft-plugin",
     "keywords": [
@@ -10,18 +10,14 @@
         "existential"
     ],
     "support": {
-        "docs": "https://github.com/moresoda/existential/blob/master/README.md",
-        "issues": "https://github.com/moresoda/existential/issues"
+        "docs": "https://github.com/fantasticmachine/existential/blob/master/README.md",
+        "issues": "https://github.com/fantasticmachine/existential/issues"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Pete Eveleigh",
             "homepage" : "https://fantasticmachine.co.uk"  
-        },
-        {
-            "name": "Moresoda",
-            "homepage": "https://moresoda.co.uk"
         }
     ],
     "require": {
@@ -29,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-          "moresoda\\existential\\": "src/"
+          "fantasticmachine\\existential\\": "src/"
         }
     },
     "extra": {
@@ -37,7 +33,7 @@
         "handle": "existential",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/moresoda/existential/master/CHANGELOG.md",
-        "class": "moresoda\\existential\\Existential"
+        "changelogUrl": "https://raw.githubusercontent.com/fantasticmachine/existential/master/CHANGELOG.md",
+        "class": "fantasticmachine\\existential\\Existential"
     }
 }
