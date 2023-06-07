@@ -16,3 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 - Use path of URL
 - Check external files
+
+# 1.0.3 - 2023-06-07
+### Added
+- Change ownership
