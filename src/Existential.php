@@ -24,7 +24,7 @@ use yii\base\Event;
  *
  * @author    Fantastic Machine
  * @package   Existential
- * @since     1.0.3
+ * @since     1.0.4
  *
  */
 class Existential extends Plugin
