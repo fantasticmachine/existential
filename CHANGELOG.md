@@ -20,3 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 # 1.0.3 - 2023-06-07
 ### Added
 - Change ownership
+
+# 1.0.4 - 2025-04-26
+### Changed
+- Removed schema version

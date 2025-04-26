@@ -24,7 +24,7 @@ use yii\base\Event;
  *
  * @author    Fantastic Machine
  * @package   Existential
- * @since     1.0.3
+ * @since     1.0.4
  *
  */
 class Existential extends Plugin
@@ -43,12 +43,6 @@ class Existential extends Plugin
     // Public Properties
     // =========================================================================
 
-    /**
-     * To execute your plugin’s migrations, you’ll need to increase its schema version.
-     *
-     * @var string
-     */
-    public string $schemaVersion = '1.0.3';
 
     // Public Methods
     // =========================================================================
